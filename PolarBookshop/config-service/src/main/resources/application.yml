@@ -14,4 +14,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/config-repo.git
+          uri: https://github.com/PolarBookshop/config-repo
+          default-label: main 
+          timeout: 5
+          colne-on-start: true
+          force-pull: true
