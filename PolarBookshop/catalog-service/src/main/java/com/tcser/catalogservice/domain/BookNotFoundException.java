@@ -1,7 +1,9 @@
-package com.tcser.catalogservice.domain;
+package com.polarbookshop.catalogservice.domain;
 
-public class BookNotFoundException extends RuntimeException{
+public class BookNotFoundException extends RuntimeException {
+
     public BookNotFoundException(String isbn) {
-        super("O livro com ISBN " + isbn + " não foi encontrado.");
+        super("The book with ISBN " + isbn + " was not found.");
     }
+
 }

@@ -1,7 +1,9 @@
-package com.tcser.catalogservice.domain;
+package com.polarbookshop.catalogservice.domain;
 
-public class BookAlreadyExistsException extends RuntimeException{
+public class BookAlreadyExistsException extends RuntimeException {
+
     public BookAlreadyExistsException(String isbn) {
-        super("Um livro com ISBN " + isbn + " já existe.");
+        super("A book with ISBN " + isbn + " already exists.");
     }
+
 }
